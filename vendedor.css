@@ -6,8 +6,12 @@
   z-index: 2;
 }
 
+.add-button{
+  float: right;
+}
+
 .list-group {
-  width: auto;
+  width: 400px;
   max-width: 400px;
   height: 350px;
   max-height: 350px;
@@ -15,8 +19,14 @@
   margin: 4rem auto;
   margin-right: 50px;
   float: left ;
-
+  align-items: center;
   }
+
+.list-group .list-group-title{
+  top: 110px;
+  position: absolute;
+  z-index: 3;
+}
 
 .list-group .item-container {
   padding-top: 40px;

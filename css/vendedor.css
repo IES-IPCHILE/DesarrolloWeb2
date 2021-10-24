@@ -1,6 +1,6 @@
 
 .fixed {
-  position: fixed;
+  margin: 0;
   max-height: 100%;
   max-width: 380px;
   z-index: 2;
@@ -17,10 +17,34 @@
   max-height: 350px;
   overflow: scroll;
   margin: 4rem auto;
-  margin-right: 50px;
+  margin-right: 10px;
   float: left ;
   align-items: center;
+  border: 2px lightgray solid;
+  padding: 5px;
   }
+
+.output{
+  padding-top: 60px;
+  width: 100px;
+  max-width: 100px;
+  height: 350px;
+  max-height: 100px;
+  float:  left;
+}
+
+.output .output-buttons button{
+
+  width:  170px;
+  height: 40px;
+  margin-top: 5px;
+
+}
+.output .output-buttons {
+
+  padding-top: 165px;
+
+}
 
 .list-group .list-group-title{
   top: 110px;
@@ -29,7 +53,12 @@
 }
 
 .list-group .item-container {
-  padding-top: 40px;
+  width: 370px;
+  max-width: 370px;
+}
+
+.list-group .item-container .item {
+  margin-top: 5px;
 }
 
 .list-group .item-container.item {
